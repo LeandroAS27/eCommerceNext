@@ -68,7 +68,7 @@ async function handler(request: Request){
             apiVersion: '2024-09-30.acacia',
         });
 
-        const customer = await stripe.customer.create({
+        const customer = await stripe.customers.create({
             name: `${first_name} ${last_name}`,
             email: email_addresses ? email_addresses[0].email_address : '',
         })

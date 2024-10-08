@@ -17,6 +17,7 @@
     "prisma": "^5.20.0",
     "react": "^18",
     "react-dom": "^18",
+    "react-intersection-observer": "^9.13.1",
     "stripe": "^17.0.0",
     "svix": "^1.37.0",
     "zustand": "^5.0.0-rc.2"

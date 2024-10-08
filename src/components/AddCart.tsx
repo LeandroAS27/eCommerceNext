@@ -10,5 +10,5 @@ export default function Product({ product }: {product: ProductType}){
         <button 
         onClick={() => addProduct(product)}
         className="rounded-md bg-[#FEF9D9] px-3.5 py-2.5 text-sm text-center">Adicionar ao carrinho</button>
-    )
+    );
 }

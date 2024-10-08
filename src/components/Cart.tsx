@@ -22,14 +22,10 @@ export default function Cart() {
                 />
                 </svg>
                 <span className="bg-lime-800 text-sm font-bold rounded-full h-5 w-5 justify-center flex absolute -top-3 -right-3">
-                    {useStore.cart.length}
+                    {useStore.cart?.length}
                 </span>
         </div>
-        {
-            !useStore.isOpen && (
-            <CartDrawer/>
-            )
-        }
+        {!useStore.isOpen && <CartDrawer/>}
     </>
     )
 
